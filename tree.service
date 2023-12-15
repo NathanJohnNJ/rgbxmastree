@@ -1,0 +1,10 @@
+[Unit]
+Description=My service to start the christmas tree light sequence.
+Requires=pigpiod.service
+
+[Service]
+Type=idle
+ExecStart=/bin/bash /home/pi/rgbxmastree/tree.sh
+
+[Install]
+WantedBy=multi-user.target
