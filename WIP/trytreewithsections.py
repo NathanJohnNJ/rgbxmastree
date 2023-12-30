@@ -1,4 +1,4 @@
-from tree import RGBXmasTree, TreeBottom, TreeMiddle, TreeTop
+from rgbxmastree.tree import RGBXmasTree, TreeBottom, TreeMiddle, TreeTop
 from colorzero import Color, Hue
 
 tree = RGBXmasTree(brightness=0.1)

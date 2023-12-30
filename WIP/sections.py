@@ -1,4 +1,4 @@
-from tree import RGBXmasTree, Pixel
+from rgbxmastree.tree import RGBXmasTree, Pixel
 
 botPixels = (0,16,15,6,12,24,19,7);
 midPixels = (17,14,5,23,20,8,1,11);

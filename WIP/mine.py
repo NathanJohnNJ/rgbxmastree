@@ -1,4 +1,4 @@
-from tree import RGBXmasTree
+from rgbxmastree.tree import RGBXmasTree
 from colorzero import Color
 from time import sleep
 import random
